@@ -1,44 +1,43 @@
-This repo is my Java + DSA grind zone 
-I push codes here while learning, practicing, and getting better at problem-solving.
+# Java + DSA Practice
 
-What’s inside
+My personal repo for practicing **Java** and **Data Structures & Algorithms**.  
+Learning, breaking code, fixing it, and getting better at problem-solving.
 
-Core Java concepts
+---
 
-DSA basics → advanced
+## What’s Inside
+- Core Java concepts  
+- DSA from basics → advanced  
+- Practice problems & implementations
 
-Stuff like:
+### Topics Covered
+- Arrays & Strings  
+- Linked Lists  
+- Stacks & Queues  
+- Recursion  
+- Sorting & Searching  
+- Trees & Graphs *(coming soon 👀)*
 
-Arrays & Strings
+---
 
-Linked Lists
+## Why This Repo
+- Stay consistent  
+- Track my progress  
+- Build strong logic for interviews & real-world dev
 
-Stacks & Queues
+---
 
-Recursion
+## Tech Stack
+- **Language:** Java  
+- **IDE:** IntelliJ Idea
 
-Sorting & Searching
+---
 
-Trees, Graphs (coming soon 👀)
+## ⚠️ Note
+This is a **learning repo**.  
+Code might be messy, unoptimized, or experimental — that’s part of the grind.
 
-Why this repo exists
+---
 
-To stay consistent
-
-To track my progress
-
-To build strong logic for interviews & real dev work
-
-
-
-Notes
-
-Codes may look messy sometimes — it’s a learning repo, not a flex repo 😌
-
-I update this regularly as I practice more problems.
-
-Tech
-
-Language: Java
-
-IDE: IntelliJ Idea
+> Consistency > motivation.  
+> One problem at a time.
