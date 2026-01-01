@@ -16,7 +16,7 @@ Learning, breaking code, fixing it, and getting better at problem-solving.
 - Stacks & Queues  
 - Recursion  
 - Sorting & Searching  
-- Trees & Graphs *(coming soon 👀)*
+- Trees & Graphs 
 
 ---
 
