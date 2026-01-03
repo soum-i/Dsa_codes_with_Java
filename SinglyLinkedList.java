@@ -24,9 +24,10 @@ public class SinglyLinkedList {
             System.out.println("4. Delete The First Node");
             System.out.println("5. Delete the last Node");
             System.out.println("6. Delete a node from any position");
+            System.out.println("7. Search any number");
 
             int newAns = sc.nextInt();
-
+            boolean listChanged = true;
             switch (newAns) {
                 case 1:
                     System.out.print("Element to be added at the first: ");
@@ -59,14 +60,25 @@ public class SinglyLinkedList {
                     head = deletePos(head, position);
                     break;
 
-                default:
-                    System.out.println("Invalid choice");
+                case 7:
+                    System.out.print("Search any number: ");
+                    int key = sc.nextInt();
+                    int result = search(head, key);
+
+                    if (result == -1) {
+                        System.out.println("Number not found!");
+                    } else {
+                        System.out.println("Number found at index: " + result);
+                    }
+                    listChanged = false;
+                    break;
             }
 
-            System.out.println("Updated Linked List:");
-            traversal(head);
-            System.out.println();
-
+            if (listChanged) {
+                System.out.println("Updated Linked List:");
+                traversal(head);
+                System.out.println();
+            }
             System.out.print("Do you want to perform another operation? (y/n): ");
             ans = sc.next().charAt(0);
         }
@@ -145,6 +157,18 @@ public class SinglyLinkedList {
         }
         prev.next = temp.next;
         return head;
+    }
+
+    //function to search
+    static int search(Node head, int n) {
+        int pos = 1;
+        for(Node curr = head; curr != null; curr=curr.next) {
+            if(curr.data == n) {
+                return pos;
+            }
+            pos++;
+        }
+        return -1;
     }
 
     //function to traverse the linked list
